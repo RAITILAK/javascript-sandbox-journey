@@ -35,6 +35,15 @@ x **= 2; // Exponent and assign
 // Comparison Operators
 let y = 10;
 let z = 20;
+
+x = 2 == 2; // Equal to
+x = 2 === 2; // Strictly equal to
+x = 2 != 2; // Not equal to
+x = 2 !== 2; // Strictly not equal to
+x = 5 > 3; // Greater than
+x = 5 < 3; // Less than
+x = 5 >= 5; // Greater than or equal to
+x = 5 <= 5; // Less than or equal to
 console.log(x == y); // Equal to
 
 console.log(x);
