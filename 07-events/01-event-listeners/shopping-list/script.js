@@ -1,25 +1,16 @@
-// function onClear() {
-//   alert("Clear Items");
-// }\
+// const logo = document.querySelector("#h1");
+// console.log(logo);
 
-const clearBtn = document.querySelector("#clear");
-
-function onClear() {
-  const listItems = document.querySelector("ul");
-  const items = listItems.querySelectorAll("li");
-
-  items.forEach((item) => item.remove());
-}
-
-//javascript event listner
-
-// clearBtn.onclick = function () {
-//   alert("clear Items");
+// // 'click dblclick mouseover mouseout mousemove contextmenu'
+// const onClick = () => {
+//   console.log("click event");
+//   logo.style.color = "red";
 // };
 
-// addEventListener()
-
-// clearBtn.addEventListener("click", function () {
-//   alert("Clear Items");
-// });
-clearBtn.addEventListener("click", onClear);
+// const onDoubleClick = () => {
+//   console.log("double click event");
+//   logo.style.color = "blue";
+// };
+// //event Listeners
+// logo.addEventListener("click", onClick);
+// logo.addEventListener("dblclick", onDoubleClick);
